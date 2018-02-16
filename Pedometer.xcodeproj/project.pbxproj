@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07665283235A06A1A93C6CDE /* Pods_Pedometer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC3E16FC6EDE1ED593D31CD /* Pods_Pedometer.framework */; };
+		3DB828FB52440D9124DDAED5 /* Pods_PedometerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17DF5FD44668A999AB690BC /* Pods_PedometerTests.framework */; };
+		5B392B6D203343AA0049E462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B392B6C203343AA0049E462 /* AppDelegate.swift */; };
+		5B392B6F203343AA0049E462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B392B6E203343AA0049E462 /* ViewController.swift */; };
+		5B392B72203343AA0049E462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B392B70203343AA0049E462 /* Main.storyboard */; };
+		5B392B74203343AA0049E462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B392B73203343AA0049E462 /* Assets.xcassets */; };
+		5B392B77203343AA0049E462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B392B75203343AA0049E462 /* LaunchScreen.storyboard */; };
+		5B392B82203343AA0049E462 /* PedometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B392B81203343AA0049E462 /* PedometerTests.swift */; };
+		5B392B8D203343AA0049E462 /* PedometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B392B8C203343AA0049E462 /* PedometerUITests.swift */; };
+		5BA16BF22033874500D5BB8F /* SingInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA16BF12033874500D5BB8F /* SingInView.swift */; };
+		5BA16BF4203390B400D5BB8F /* PedometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA16BF3203390B400D5BB8F /* PedometerView.swift */; };
+		7834E2E995800FDAE70EC8FC /* Pods_PedometerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B803399419873AB38042B73E /* Pods_PedometerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B392B7E203343AA0049E462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B392B61203343AA0049E462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B392B68203343AA0049E462;
+			remoteInfo = Pedometer;
+		};
+		5B392B89203343AA0049E462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B392B61203343AA0049E462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B392B68203343AA0049E462;
+			remoteInfo = Pedometer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DC3E16FC6EDE1ED593D31CD /* Pods_Pedometer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pedometer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B392B69203343AA0049E462 /* Pedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B392B6C203343AA0049E462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B392B6E203343AA0049E462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B392B71203343AA0049E462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B392B73203343AA0049E462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B392B76203343AA0049E462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B392B78203343AA0049E462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B392B7D203343AA0049E462 /* PedometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B392B81203343AA0049E462 /* PedometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerTests.swift; sourceTree = "<group>"; };
+		5B392B83203343AA0049E462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B392B88203343AA0049E462 /* PedometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B392B8C203343AA0049E462 /* PedometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerUITests.swift; sourceTree = "<group>"; };
+		5B392B8E203343AA0049E462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA16BF12033874500D5BB8F /* SingInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInView.swift; sourceTree = "<group>"; };
+		5BA16BF3203390B400D5BB8F /* PedometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerView.swift; sourceTree = "<group>"; };
+		76B5AB7CDE9CB26DAB818E83 /* Pods-PedometerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedometerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PedometerTests/Pods-PedometerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77BA79C401CFB678A1B2C888 /* Pods-Pedometer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pedometer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pedometer/Pods-Pedometer.release.xcconfig"; sourceTree = "<group>"; };
+		B803399419873AB38042B73E /* Pods_PedometerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PedometerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67C254F1C4D2A9BED297EE0 /* Pods-PedometerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedometerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PedometerUITests/Pods-PedometerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF913A7F46A5A14BD28865EF /* Pods-PedometerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedometerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PedometerUITests/Pods-PedometerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D1FAA4403773CA3374516253 /* Pods-PedometerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedometerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PedometerTests/Pods-PedometerTests.release.xcconfig"; sourceTree = "<group>"; };
+		E17DF5FD44668A999AB690BC /* Pods_PedometerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PedometerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32C50F4A2361036A78A7ED3 /* Pods-Pedometer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pedometer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pedometer/Pods-Pedometer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B392B66203343AA0049E462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07665283235A06A1A93C6CDE /* Pods_Pedometer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B392B7A203343AA0049E462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB828FB52440D9124DDAED5 /* Pods_PedometerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B392B85203343AA0049E462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7834E2E995800FDAE70EC8FC /* Pods_PedometerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AEB133D075B6F88DF98921E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F32C50F4A2361036A78A7ED3 /* Pods-Pedometer.debug.xcconfig */,
+				77BA79C401CFB678A1B2C888 /* Pods-Pedometer.release.xcconfig */,
+				76B5AB7CDE9CB26DAB818E83 /* Pods-PedometerTests.debug.xcconfig */,
+				D1FAA4403773CA3374516253 /* Pods-PedometerTests.release.xcconfig */,
+				C67C254F1C4D2A9BED297EE0 /* Pods-PedometerUITests.debug.xcconfig */,
+				CF913A7F46A5A14BD28865EF /* Pods-PedometerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B392B60203343AA0049E462 = {
+			isa = PBXGroup;
+			children = (
+				5B392B6B203343AA0049E462 /* Pedometer */,
+				5B392B80203343AA0049E462 /* PedometerTests */,
+				5B392B8B203343AA0049E462 /* PedometerUITests */,
+				5B392B6A203343AA0049E462 /* Products */,
+				0AEB133D075B6F88DF98921E /* Pods */,
+				6FBA248C1FC616D14C839B37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B392B6A203343AA0049E462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B392B69203343AA0049E462 /* Pedometer.app */,
+				5B392B7D203343AA0049E462 /* PedometerTests.xctest */,
+				5B392B88203343AA0049E462 /* PedometerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B392B6B203343AA0049E462 /* Pedometer */ = {
+			isa = PBXGroup;
+			children = (
+				5B392B6C203343AA0049E462 /* AppDelegate.swift */,
+				5BA16BF12033874500D5BB8F /* SingInView.swift */,
+				5B392B6E203343AA0049E462 /* ViewController.swift */,
+				5BA16BF3203390B400D5BB8F /* PedometerView.swift */,
+				5B392B70203343AA0049E462 /* Main.storyboard */,
+				5B392B73203343AA0049E462 /* Assets.xcassets */,
+				5B392B75203343AA0049E462 /* LaunchScreen.storyboard */,
+				5B392B78203343AA0049E462 /* Info.plist */,
+			);
+			path = Pedometer;
+			sourceTree = "<group>";
+		};
+		5B392B80203343AA0049E462 /* PedometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B392B81203343AA0049E462 /* PedometerTests.swift */,
+				5B392B83203343AA0049E462 /* Info.plist */,
+			);
+			path = PedometerTests;
+			sourceTree = "<group>";
+		};
+		5B392B8B203343AA0049E462 /* PedometerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B392B8C203343AA0049E462 /* PedometerUITests.swift */,
+				5B392B8E203343AA0049E462 /* Info.plist */,
+			);
+			path = PedometerUITests;
+			sourceTree = "<group>";
+		};
+		6FBA248C1FC616D14C839B37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DC3E16FC6EDE1ED593D31CD /* Pods_Pedometer.framework */,
+				E17DF5FD44668A999AB690BC /* Pods_PedometerTests.framework */,
+				B803399419873AB38042B73E /* Pods_PedometerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B392B68203343AA0049E462 /* Pedometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B392B91203343AA0049E462 /* Build configuration list for PBXNativeTarget "Pedometer" */;
+			buildPhases = (
+				444AE735215C3E9046393CCD /* [CP] Check Pods Manifest.lock */,
+				5B392B65203343AA0049E462 /* Sources */,
+				5B392B66203343AA0049E462 /* Frameworks */,
+				5B392B67203343AA0049E462 /* Resources */,
+				342B12A9D2D38A1AAD3F5A6D /* [CP] Embed Pods Frameworks */,
+				6E17F13CEBE3F842F916787C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pedometer;
+			productName = Pedometer;
+			productReference = 5B392B69203343AA0049E462 /* Pedometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B392B7C203343AA0049E462 /* PedometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B392B94203343AA0049E462 /* Build configuration list for PBXNativeTarget "PedometerTests" */;
+			buildPhases = (
+				1ED4EEE798CA356C8173FB48 /* [CP] Check Pods Manifest.lock */,
+				5B392B79203343AA0049E462 /* Sources */,
+				5B392B7A203343AA0049E462 /* Frameworks */,
+				5B392B7B203343AA0049E462 /* Resources */,
+				1959265097677FF301EF1633 /* [CP] Embed Pods Frameworks */,
+				9163DF2807FF05AAE64ABC08 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B392B7F203343AA0049E462 /* PBXTargetDependency */,
+			);
+			name = PedometerTests;
+			productName = PedometerTests;
+			productReference = 5B392B7D203343AA0049E462 /* PedometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B392B87203343AA0049E462 /* PedometerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B392B97203343AA0049E462 /* Build configuration list for PBXNativeTarget "PedometerUITests" */;
+			buildPhases = (
+				5607101EF83BE6EB8E0CB5CE /* [CP] Check Pods Manifest.lock */,
+				5B392B84203343AA0049E462 /* Sources */,
+				5B392B85203343AA0049E462 /* Frameworks */,
+				5B392B86203343AA0049E462 /* Resources */,
+				7FAAC30AC11140072A19FE0F /* [CP] Embed Pods Frameworks */,
+				06A2B06CA53D9A26BF95C908 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B392B8A203343AA0049E462 /* PBXTargetDependency */,
+			);
+			name = PedometerUITests;
+			productName = PedometerUITests;
+			productReference = 5B392B88203343AA0049E462 /* PedometerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B392B61203343AA0049E462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kateryna Zakharchuk";
+				TargetAttributes = {
+					5B392B68203343AA0049E462 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5B392B7C203343AA0049E462 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B392B68203343AA0049E462;
+					};
+					5B392B87203343AA0049E462 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B392B68203343AA0049E462;
+					};
+				};
+			};
+			buildConfigurationList = 5B392B64203343AA0049E462 /* Build configuration list for PBXProject "Pedometer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B392B60203343AA0049E462;
+			productRefGroup = 5B392B6A203343AA0049E462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B392B68203343AA0049E462 /* Pedometer */,
+				5B392B7C203343AA0049E462 /* PedometerTests */,
+				5B392B87203343AA0049E462 /* PedometerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B392B67203343AA0049E462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B392B77203343AA0049E462 /* LaunchScreen.storyboard in Resources */,
+				5B392B74203343AA0049E462 /* Assets.xcassets in Resources */,
+				5B392B72203343AA0049E462 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B392B7B203343AA0049E462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B392B86203343AA0049E462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06A2B06CA53D9A26BF95C908 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PedometerUITests/Pods-PedometerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1959265097677FF301EF1633 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PedometerTests/Pods-PedometerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1ED4EEE798CA356C8173FB48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PedometerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		342B12A9D2D38A1AAD3F5A6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pedometer/Pods-Pedometer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		444AE735215C3E9046393CCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pedometer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5607101EF83BE6EB8E0CB5CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PedometerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E17F13CEBE3F842F916787C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pedometer/Pods-Pedometer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FAAC30AC11140072A19FE0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PedometerUITests/Pods-PedometerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9163DF2807FF05AAE64ABC08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PedometerTests/Pods-PedometerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B392B65203343AA0049E462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B392B6F203343AA0049E462 /* ViewController.swift in Sources */,
+				5BA16BF22033874500D5BB8F /* SingInView.swift in Sources */,
+				5BA16BF4203390B400D5BB8F /* PedometerView.swift in Sources */,
+				5B392B6D203343AA0049E462 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B392B79203343AA0049E462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B392B82203343AA0049E462 /* PedometerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B392B84203343AA0049E462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B392B8D203343AA0049E462 /* PedometerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B392B7F203343AA0049E462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B392B68203343AA0049E462 /* Pedometer */;
+			targetProxy = 5B392B7E203343AA0049E462 /* PBXContainerItemProxy */;
+		};
+		5B392B8A203343AA0049E462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B392B68203343AA0049E462 /* Pedometer */;
+			targetProxy = 5B392B89203343AA0049E462 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B392B70203343AA0049E462 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B392B71203343AA0049E462 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B392B75203343AA0049E462 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B392B76203343AA0049E462 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B392B8F203343AA0049E462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B392B90203343AA0049E462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B392B92203343AA0049E462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F32C50F4A2361036A78A7ED3 /* Pods-Pedometer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9596FLHWUS;
+				INFOPLIST_FILE = Pedometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kzakharc.Pedometer1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods/Backendless/SDK/ios/backendless/include/Backendless-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B392B93203343AA0049E462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77BA79C401CFB678A1B2C888 /* Pods-Pedometer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9596FLHWUS;
+				INFOPLIST_FILE = Pedometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kzakharc.Pedometer1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods/Backendless/SDK/ios/backendless/include/Backendless-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B392B95203343AA0049E462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76B5AB7CDE9CB26DAB818E83 /* Pods-PedometerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PedometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kzakharc.PedometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pedometer.app/Pedometer";
+			};
+			name = Debug;
+		};
+		5B392B96203343AA0049E462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FAA4403773CA3374516253 /* Pods-PedometerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PedometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kzakharc.PedometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pedometer.app/Pedometer";
+			};
+			name = Release;
+		};
+		5B392B98203343AA0049E462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67C254F1C4D2A9BED297EE0 /* Pods-PedometerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PedometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kzakharc.PedometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pedometer;
+			};
+			name = Debug;
+		};
+		5B392B99203343AA0049E462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF913A7F46A5A14BD28865EF /* Pods-PedometerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PedometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kzakharc.PedometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pedometer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B392B64203343AA0049E462 /* Build configuration list for PBXProject "Pedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B392B8F203343AA0049E462 /* Debug */,
+				5B392B90203343AA0049E462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B392B91203343AA0049E462 /* Build configuration list for PBXNativeTarget "Pedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B392B92203343AA0049E462 /* Debug */,
+				5B392B93203343AA0049E462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B392B94203343AA0049E462 /* Build configuration list for PBXNativeTarget "PedometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B392B95203343AA0049E462 /* Debug */,
+				5B392B96203343AA0049E462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B392B97203343AA0049E462 /* Build configuration list for PBXNativeTarget "PedometerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B392B98203343AA0049E462 /* Debug */,
+				5B392B99203343AA0049E462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B392B61203343AA0049E462 /* Project object */;
+}
